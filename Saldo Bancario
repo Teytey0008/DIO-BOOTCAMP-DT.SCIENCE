@@ -1,0 +1,10 @@
+#CALCULO DE SALDO BANCARIO
+saldoAtual = float(input())
+valorDeposito = float(input())
+valorRetirada = float(input())
+
+# Calcular o saldo atualizado
+saldoAtualizado = saldoAtual + valorDeposito - valorRetirada
+
+# Imprimir o saldo atualizado com uma casa decimal
+print("Saldo atualizado na conta: {:.1f}".format(saldoAtualizado))
